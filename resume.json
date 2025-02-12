@@ -1,0 +1,150 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Thibault Glandut",
+    "label": "Développeur",
+    "email": "glandut.thibault@pm.me",
+    "phone": "06 47 79 07 89",
+    "url": "https://google.com",
+    "summary": "WIP",
+    "location": {
+      "address": "1 Rue Clair Tiseur",
+      "postalCode": "69007",
+      "city": "LYON",
+      "countryCode": "FR"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "thibault glandut",
+        "url": "https://www.linkedin.com/in/thibault-glandut/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Axopen",
+      "location": "Lyon",
+      "description": "Société de services spécialisée dans le développement d'applications web",
+      "position": "Analyste Développeur",
+      "url": "https://www.axopen.com/",
+      "startDate": "2023-01-09",
+      "endDate": "2025-01-22",
+      "summary": "Conception et développement d'applications web sur mesure pour divers clients",
+      "highlights": [
+        "Développement et maintenance d'une application de gestion complète de contrats d'assurances, de la création à la cloture du contrat, calculs des cotisations, génération et envoi automatique des documents. - Spring Boot, Angular",
+        "Développement et maintenance d'une application \"boiler plate\" à destination des développeurs internes d'un groupe afin de simplifier et uniformiser les projets créés par les différentes équipes du groupe, accompagnée de plusieurs librairies facultatives et d'une documentation en ligne. - Spring Boot, Angular",
+        "Refonte from scratch d'un ERP. - Spring Boot, Angular"
+      ]
+    },
+    {
+      "name": "Mairie",
+      "location": "Voreppe",
+      "position": "Apprenti",
+      "url": "http://piedpiper.example.com",
+      "startDate": "2021-09-01",
+      "endDate": "2022-09-01",
+      "summary": "Développement en autonomie de différentes applications web visant à automatiser et simplifier les tâches des agents, maintenance de l'intranet et extranet de la mairie. Symfony, Bootstrap, Docker"
+    },
+    {
+      "name": "General Electric",
+      "location": "Aix-Les-Bains",
+      "description": "Usine",
+      "position": "Stagiaire",
+      "startDate": "2020-12-01",
+      "endDate": "2021-02-01",
+      "summary": "Maintenance de l'outil de gestion de la chaine d'approvisionnement de l'usine développé en interne. VBA"
+    }
+  ],
+  "education": [
+    {
+      "institution": "Université Grenoble Alpes",
+      "url": "https://www-info.iut2.univ-grenoble-alpes.fr/licence-pro-mi/lp-mi-aw/",
+      "area": "Applications Web",
+      "studyType": "Licence Professionnelle",
+      "startDate": "2021-09-01",
+      "endDate": "2022-09-01",
+      "courses": [
+        "Architecture distribuée - Développement d'API REST et SOAP",
+        "Programmation Web en Java - Développment d'application web serveur et client en Java sans l'aide de frameworks"
+      ]
+    },
+    {
+      "institution": "Université Grenoble Alpes",
+      "url": "https://formations.univ-grenoble-alpes.fr/fr/catalogue-2021/but-bachelor-universitaire-de-technologie-CBB/but-informatique-grenoble-KI4UEV4Y.html",
+      "area": "Informatique",
+      "studyType": "Diplôme Universitaire Technologique",
+      "startDate": "2018-09-01",
+      "endDate": "2021-02-01",
+      "courses": [
+        "Probabilités et Statistiques - Découverte de R",
+        "Algorithmique Avancée - Java Introduction"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Front-End",
+      "level": "Master",
+      "keywords": [
+        "HTML",
+        "CSS/SCSS",
+        "Tailwind/Bootstrap",
+        "JavaScript/TypeScript",
+        "Angular"
+      ]
+    },
+    {
+      "name": "Back-End",
+      "level": "Master",
+      "keywords": ["SpringBoot", "Symphony", "PostgresQL", "MySql"]
+    },
+    {
+      "name": "DevOps",
+      "level": "Master",
+      "keywords": ["Docker", "Gitlab CI/CD"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Français",
+      "fluency": "Langue Maternelle"
+    },
+    {
+      "language": "Anglais",
+      "fluency": "C1"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Photographie",
+      "keywords": ["De rue", "De reportage"]
+    },
+    {
+      "name": "Musique",
+      "keywords": ["Rap", "Drum&Bass", "Rock alternatif"]
+    },
+    {
+      "name": "Nature",
+      "keywords": ["Randonnée", "Jardinage", "Animaux"]
+    },
+    {
+      "name": "Cinéma",
+      "keywords": ["Thriller", "Comédie", "Animé"]
+    },
+    {
+      "name": "Cuisine",
+      "keywords": ["Patisserie"]
+    }
+  ],
+  "meta": {
+    "theme": "jsonresume-theme-even",
+    "themeOptions": {
+      "colors": {
+        "background": "#ffffff"
+      }
+    },
+    "version": "v0.0.1",
+    "lastModified": "2025-02-05T17:54:00"
+  }
+}
