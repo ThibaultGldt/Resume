@@ -1,0 +1,29 @@
+name: Validates resume, generates it's pdf and html and pushes html to server
+
+#Triggered on release creation
+on:
+  release:
+    types: [published]
+
+jobs:
+  validate:
+    runs-on: alpine:latest
+
+    steps:
+      - name: checkout repository
+        uses: actions/checkout@v3
+
+      - name: set up node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 22
+
+      - name: install dependencies
+        run: npm install
+
+      - name: validate resume.json
+        run: npx resumed validate
+
+      - name: generate resume pdf
+        if: success()
+        run: npx resumed render resume.json
