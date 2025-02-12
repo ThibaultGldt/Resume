@@ -1,6 +1,6 @@
 {
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
-  "basics": {
+  "basics":
     "name": "Thibault Glandut",
     "label": "Développeur",
     "email": "glandut.thibault@pm.me",
